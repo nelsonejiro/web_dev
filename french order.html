@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order French Cuisine - Taste of the World</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-pink-700 text-white p-5">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">🛒 Order French Cuisine</h1>
+      <a href="french.html" class="text-sm hover:underline">← Back to Dish Page</a>
+    </div>
+  </header>
+
+  <!-- Order Section -->
+  <section class="py-14 px-6 md:px-20 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-pink-800 mb-6 text-center">Menu & Pricing</h2>
+
+      <div class="grid md:grid-cols-2 gap-10">
+        <!-- Menu Item 1 -->
+        <div class="border border-pink-300 rounded-lg p-6 shadow-md bg-pink-100">
+          <h3 class="text-xl font-semibold text-pink-900 mb-2">🥞 Crème de la Crêpe</h3>
+          <p class="text-gray-700 mb-3">Soft French crêpes with whipped vanilla crème and fruit drizzle.</p>
+          <p class="font-bold text-pink-700 text-lg">$7.50</p>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="border border-pink-300 rounded-lg p-6 shadow-md bg-pink-100">
+          <h3 class="text-xl font-semibold text-pink-900 mb-2">🥖 Mini Baguette & Cheese</h3>
+          <p class="text-gray-700 mb-3">Fresh baked baguette with soft brie and herbed butter.</p>
+          <p class="font-bold text-pink-700 text-lg">$6.25</p>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="border border-pink-300 rounded-lg p-6 shadow-md bg-pink-100">
+          <h3 class="text-xl font-semibold text-pink-900 mb-2">🍰 Mini Crème Brûlée</h3>
+          <p class="text-gray-700 mb-3">Classic French custard with caramelized sugar top.</p>
+          <p class="font-bold text-pink-700 text-lg">$5.00</p>
+        </div>
+
+        <!-- Menu Item 4 -->
+        <div class="border border-pink-300 rounded-lg p-6 shadow-md bg-pink-100">
+          <h3 class="text-xl font-semibold text-pink-900 mb-2">🍷 Sparkling Grape Mocktail</h3>
+          <p class="text-gray-700 mb-3">Non-alcoholic bubbly grape drink with floral notes.</p>
+          <p class="font-bold text-pink-700 text-lg">$3.75</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Form -->
+  <section class="py-10 px-6 md:px-20 bg-pink-200">
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-md">
+      <h3 class="text-2xl font-bold text-pink-800 mb-4 text-center">Place Your Order</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Full Name" class="w-full p-3 border border-pink-300 rounded" required>
+        <input type="tel" placeholder="Phone Number" class="w-full p-3 border border-pink-300 rounded" required>
+        <input type="text" placeholder="Delivery Address" class="w-full p-3 border border-pink-300 rounded" required>
+        <textarea placeholder="Your Order (e.g. 2x Crêpes, 1x Crème Brûlée)" class="w-full p-3 border border-pink-300 rounded" rows="4" required></textarea>
+        <button type="submit" class="w-full bg-pink-700 text-white py-3 rounded hover:bg-pink-800 font-semibold">
+          Submit Order
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pink-700 text-white py-6 text-center text-sm">
+    <p>&copy; 2025 Taste of the World. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Yoruba Cuisine - Taste of the World</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-yellow-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-yellow-700 text-white p-5">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">🛒 Order Yoruba Cuisine</h1>
+      <a href="yoruba.html" class="text-sm hover:underline">← Back to Dish Page</a>
+    </div>
+  </header>
+
+  <!-- Order Section -->
+  <section class="py-14 px-6 md:px-20 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-yellow-800 mb-6 text-center">Menu & Pricing</h2>
+
+      <div class="grid md:grid-cols-2 gap-10">
+        <!-- Menu Item 1 -->
+        <div class="border border-yellow-200 rounded-lg p-6 shadow-md bg-yellow-100">
+          <h3 class="text-xl font-semibold text-yellow-900 mb-2">🍲 Amala with Ewedu & Gbegiri</h3>
+          <p class="text-gray-700 mb-3">Smooth Amala served with Ewedu soup, Gbegiri, and assorted meats.</p>
+          <p class="font-bold text-yellow-700 text-lg">₦3,500</p>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="border border-yellow-200 rounded-lg p-6 shadow-md bg-yellow-100">
+          <h3 class="text-xl font-semibold text-yellow-900 mb-2">🍖 Amala with Efo Riro</h3>
+          <p class="text-gray-700 mb-3">Yam flour with rich spinach stew and spicy meat toppings.</p>
+          <p class="font-bold text-yellow-700 text-lg">₦4,000</p>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="border border-yellow-200 rounded-lg p-6 shadow-md bg-yellow-100">
+          <h3 class="text-xl font-semibold text-yellow-900 mb-2">🥩 Ewedu & Gbegiri Only (No Swallow)</h3>
+          <p class="text-gray-700 mb-3">Perfect side soup combo with assorted beef and ponmo.</p>
+          <p class="font-bold text-yellow-700 text-lg">₦2,500</p>
+        </div>
+
+        <!-- Menu Item 4 -->
+        <div class="border border-yellow-200 rounded-lg p-6 shadow-md bg-yellow-100">
+          <h3 class="text-xl font-semibold text-yellow-900 mb-2">🧃 Cold Kunu or Zobo</h3>
+          <p class="text-gray-700 mb-3">Traditional Nigerian drinks to cool down the spice.</p>
+          <p class="font-bold text-yellow-700 text-lg">₦1,000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Form -->
+  <section class="py-10 px-6 md:px-20 bg-yellow-200">
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-md">
+      <h3 class="text-2xl font-bold text-yellow-800 mb-4 text-center">Place Your Order</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Full Name" class="w-full p-3 border border-yellow-300 rounded" required>
+        <input type="tel" placeholder="Phone Number" class="w-full p-3 border border-yellow-300 rounded" required>
+        <input type="text" placeholder="Delivery Address" class="w-full p-3 border border-yellow-300 rounded" required>
+        <textarea placeholder="Your Order (e.g. 2x Amala with Ewedu & Gbegiri)" class="w-full p-3 border border-yellow-300 rounded" rows="4" required></textarea>
+        <button type="submit" class="w-full bg-yellow-700 text-white py-3 rounded hover:bg-yellow-800 font-semibold">
+          Submit Order
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-yellow-700 text-white py-6 text-center text-sm">
+    <p>&copy; 2025 Taste of the World. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

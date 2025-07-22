@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Chinese Cuisine - Taste of the World</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-red-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-red-700 text-white p-5">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">🛒 Order Chinese Cuisine</h1>
+      <a href="chinese.html" class="text-sm hover:underline">← Back to Dish Page</a>
+    </div>
+  </header>
+
+  <!-- Order Section -->
+  <section class="py-14 px-6 md:px-20 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-red-800 mb-6 text-center">Menu & Pricing</h2>
+
+      <div class="grid md:grid-cols-2 gap-10">
+        <!-- Menu Item 1 -->
+        <div class="border border-red-200 rounded-lg p-6 shadow-md bg-red-100">
+          <h3 class="text-xl font-semibold text-red-900 mb-2">🥟 Dragon’s Flame Dumplings</h3>
+          <p class="text-gray-700 mb-3">Spicy pork dumplings with garlic chili oil and Sichuan spices.</p>
+          <p class="font-bold text-red-700 text-lg">$8.99</p>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="border border-red-200 rounded-lg p-6 shadow-md bg-red-100">
+          <h3 class="text-xl font-semibold text-red-900 mb-2">🍜 Noodles & Dumplings Combo</h3>
+          <p class="text-gray-700 mb-3">Combo with flame dumplings, stir-fried noodles, and veggie spring roll.</p>
+          <p class="font-bold text-red-700 text-lg">$13.50</p>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="border border-red-200 rounded-lg p-6 shadow-md bg-red-100">
+          <h3 class="text-xl font-semibold text-red-900 mb-2">🌶️ Chili Oil (Mini Jar)</h3>
+          <p class="text-gray-700 mb-3">Housemade garlic chili oil – perfect for home use.</p>
+          <p class="font-bold text-red-700 text-lg">$3.50</p>
+        </div>
+
+        <!-- Menu Item 4 -->
+        <div class="border border-red-200 rounded-lg p-6 shadow-md bg-red-100">
+          <h3 class="text-xl font-semibold text-red-900 mb-2">🧃 Iced Jasmine Tea</h3>
+          <p class="text-gray-700 mb-3">Cold brewed jasmine tea with a hint of sweetness.</p>
+          <p class="font-bold text-red-700 text-lg">$2.00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Form -->
+  <section class="py-10 px-6 md:px-20 bg-red-200">
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-md">
+      <h3 class="text-2xl font-bold text-red-800 mb-4 text-center">Place Your Order</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Full Name" class="w-full p-3 border border-red-300 rounded" required>
+        <input type="tel" placeholder="Phone Number" class="w-full p-3 border border-red-300 rounded" required>
+        <input type="text" placeholder="Delivery Address" class="w-full p-3 border border-red-300 rounded" required>
+        <textarea placeholder="Your Order (e.g. 2x Dragon’s Flame Dumplings)" class="w-full p-3 border border-red-300 rounded" rows="4" required></textarea>
+        <button type="submit" class="w-full bg-red-700 text-white py-3 rounded hover:bg-red-800 font-semibold">
+          Submit Order
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-red-700 text-white py-6 text-center text-sm">
+    <p>&copy; 2025 Taste of the World. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
